@@ -111,5 +111,17 @@ function playSound(id, loop) {
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:828px; height:1792px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
+<script>
+  function __resize () {
+    // 全屏展示
+    var __dom = document.getElementById('animation_container')
+    var x = window.innerWidth / __dom.clientWidth
+    __dom.style.transform = 'scaleX(' + x + ')'
+  }
+  __resize()
+  window.onresize = function (){
+    __resize()
+  }
+</script>
 </body>
 </html>
