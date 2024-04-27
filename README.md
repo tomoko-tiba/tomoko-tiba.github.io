@@ -1,7 +1,5 @@
 # Life Path Number 生命灵数小测试
 
-![image](https://github.com/tomoko-tiba/tomoko-tiba.github.io/assets/41440180/2180fc5e-e112-4292-bd5f-3a709201fc84)
-
 ### 使用指南
 
 1. 输入8位数生日，如19990120
